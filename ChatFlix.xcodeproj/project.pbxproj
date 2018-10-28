@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FD73819AAC15BA9D87023B /* Pods_ChatFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2522971ADA2223ABAC37068E /* Pods_ChatFlix.framework */; };
+		874B9BF5C3C2D11FCAAD1EBD /* Pods_ChatFlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9ADAE6A9EA15476DBC7422 /* Pods_ChatFlixTests.framework */; };
+		B30C16FD20AC281500BBB4FE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C16FC20AC281500BBB4FE /* RoundedButton.swift */; };
+		B30C170020AC321000BBB4FE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C16FF20AC321000BBB4FE /* SignInViewController.swift */; };
+		B30C170220AC32C400BBB4FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C170120AC32C400BBB4FE /* LoginViewController.swift */; };
+		B30C170420AC347500BBB4FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C170320AC347500BBB4FE /* GoogleService-Info.plist */; };
+		B30C170620AC34E500BBB4FE /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C170520AC34E500BBB4FE /* AccountViewController.swift */; };
+		B30C170820AC446000BBB4FE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C170720AC446000BBB4FE /* RegisterViewController.swift */; };
+		B30C170A20AC68E600BBB4FE /* AccountNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C170920AC68E600BBB4FE /* AccountNameTableViewCell.swift */; };
+		B31FCF8420B3D38F0072D5FE /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31FCF8320B3D38F0072D5FE /* Friend.swift */; };
+		B3439D4A20BFEF5B005052F7 /* GroupChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3439D4920BFEF5B005052F7 /* GroupChatViewController.swift */; };
+		B3470EC820A5884600312B03 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3470EC720A5884600312B03 /* MoviesViewController.swift */; };
+		B3470ECA20A58A9F00312B03 /* MovieCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3470EC920A58A9F00312B03 /* MovieCollection.swift */; };
+		B3470ECC20A58ED000312B03 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3470ECB20A58ED000312B03 /* MovieCollectionViewCell.swift */; };
+		B3470ECE20A5B1CE00312B03 /* MovieCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3470ECD20A5B1CE00312B03 /* MovieCollectionReusableView.swift */; };
+		B34F167A20AD57E200A07F4B /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F167920AD57E200A07F4B /* FriendsTableViewController.swift */; };
+		B356748E20B2F585002A5019 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356748D20B2F585002A5019 /* ChatViewController.swift */; };
+		B361976420B192AC0062C5C4 /* TicketBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361976320B192AC0062C5C4 /* TicketBookingViewController.swift */; };
+		B361976620B1ADD80062C5C4 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361976520B1ADD80062C5C4 /* TicketTableViewCell.swift */; };
+		B361976820B1AE390062C5C4 /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361976720B1AE390062C5C4 /* TicketsTableViewController.swift */; };
+		B36EECF620A1867400FFC585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EECF520A1867400FFC585 /* AppDelegate.swift */; };
+		B36EECFB20A1867400FFC585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36EECF920A1867400FFC585 /* Main.storyboard */; };
+		B36EECFE20A1867400FFC585 /* ChatFlix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B36EECFC20A1867400FFC585 /* ChatFlix.xcdatamodeld */; };
+		B36EED0020A1867500FFC585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36EECFF20A1867500FFC585 /* Assets.xcassets */; };
+		B36EED0320A1867500FFC585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36EED0120A1867500FFC585 /* LaunchScreen.storyboard */; };
+		B36EED0E20A1867500FFC585 /* ChatFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EED0D20A1867500FFC585 /* ChatFlixTests.swift */; };
+		B36EED1920A1867500FFC585 /* ChatFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EED1820A1867500FFC585 /* ChatFlixUITests.swift */; };
+		B36EED2820A186B700FFC585 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EED2720A186B700FFC585 /* Movie.swift */; };
+		B36EED3020A187C400FFC585 /* MovieApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EED2F20A187C400FFC585 /* MovieApi.swift */; };
+		B36EED3220A18AFA00FFC585 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EED3120A18AFA00FFC585 /* API.swift */; };
+		B383282520A5B8DA00752438 /* LocatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383282420A5B8DA00752438 /* LocatorTableViewCell.swift */; };
+		B383282720A5B9C400752438 /* FindAreaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383282620A5B9C400752438 /* FindAreaTableViewController.swift */; };
+		B383282920A5BA3E00752438 /* TheatresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383282820A5BA3E00752438 /* TheatresViewController.swift */; };
+		B383282B20A5C37E00752438 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383282A20A5C37E00752438 /* Constants.swift */; };
+		B3B47ED220AE70E7008D4857 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B47ED120AE70E7008D4857 /* AddFriendViewController.swift */; };
+		B3C6EFAA20C14E2E00652C16 /* AddGroupFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C6EFA920C14E2E00652C16 /* AddGroupFriendViewController.swift */; };
+		B3C6EFAD20C14F2800652C16 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C6EFAB20C14F2800652C16 /* FriendTableViewCell.swift */; };
+		B3C6EFAE20C14F2800652C16 /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3C6EFAC20C14F2800652C16 /* FriendTableViewCell.xib */; };
+		B3DC126220C2C6F300B54E7D /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC126020C2C6F300B54E7D /* GroupTableViewCell.swift */; };
+		B3DC126320C2C6F300B54E7D /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DC126120C2C6F300B54E7D /* GroupTableViewCell.xib */; };
+		B3DC126520C2C98800B54E7D /* SelectGroupShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC126420C2C98800B54E7D /* SelectGroupShareViewController.swift */; };
+		B3EFF0BB20C002E4003C83CD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3EFF0BA20C002E4003C83CD /* Settings.bundle */; };
+		B3F3192F20C3C175004CBDB1 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3192E20C3C175004CBDB1 /* ThemeView.swift */; };
+		B3F3193120C3D1E1004CBDB1 /* ThemeTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3193020C3D1E1004CBDB1 /* ThemeTitleLabel.swift */; };
+		B3F3193320C3F191004CBDB1 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3193220C3F191004CBDB1 /* ChangePasswordViewController.swift */; };
+		B3F3193620C4088E004CBDB1 /* AcknowledgementsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3193520C4088E004CBDB1 /* AcknowledgementsDetailsViewController.swift */; };
+		B3F3193820C40CB6004CBDB1 /* AcknowledgementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3193720C40CB6004CBDB1 /* AcknowledgementsTableViewController.swift */; };
+		B3F3193A20C40DAE004CBDB1 /* AcknowledgementsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3193920C40DAE004CBDB1 /* AcknowledgementsTableViewCell.swift */; };
+		B3FB661520BEC1EF00CDFC7E /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB661420BEC1EF00CDFC7E /* Group.swift */; };
+		B3FB661720BEC56C00CDFC7E /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB661620BEC56C00CDFC7E /* NewGroupViewController.swift */; };
+		B3FF536220A5E27B004B9A9D /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FF536120A5E27B004B9A9D /* MovieDetailsViewController.swift */; };
+		B3FFFE6120BA4F6A008906B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FFFE6020BA4F6A008906B1 /* Colors.swift */; };
+		B3FFFE6520BA53ED008906B1 /* ThemeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FFFE6420BA53ED008906B1 /* ThemeNavigationController.swift */; };
+		B3FFFE6920BA54F6008906B1 /* ThemeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FFFE6820BA54F6008906B1 /* ThemeCollectionView.swift */; };
+		B3FFFE6D20BA6B2D008906B1 /* ThemePrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FFFE6C20BA6B2D008906B1 /* ThemePrimaryLabel.swift */; };
+		B3FFFE6F20BA6B90008906B1 /* ThemeSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FFFE6E20BA6B90008906B1 /* ThemeSecondaryLabel.swift */; };
+		B3FFFE7120BA7019008906B1 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FFFE7020BA7019008906B1 /* RatingView.swift */; };
+		B3FFFE7320BA78C9008906B1 /* ThemeTableViewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FFFE7220BA78C9008906B1 /* ThemeTableViewCellView.swift */; };
+		DEB4A79FCEE3D2610AD1F92E /* Pods_ChatFlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35072EE3B4A934780DB613D7 /* Pods_ChatFlixUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36EED0A20A1867500FFC585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36EECEA20A1867400FFC585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36EECF120A1867400FFC585;
+			remoteInfo = ChatFlix;
+		};
+		B36EED1520A1867500FFC585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36EECEA20A1867400FFC585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36EECF120A1867400FFC585;
+			remoteInfo = ChatFlix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047EF06F7BE9672A391BF57F /* Pods-ChatFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFlix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatFlix/Pods-ChatFlix.debug.xcconfig"; sourceTree = "<group>"; };
+		09C70D83DF93D11350AB3182 /* Pods-ChatFlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFlixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatFlixTests/Pods-ChatFlixTests.release.xcconfig"; sourceTree = "<group>"; };
+		2221A1458DF74318FDBB5C19 /* Pods-ChatFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFlix.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatFlix/Pods-ChatFlix.release.xcconfig"; sourceTree = "<group>"; };
+		2522971ADA2223ABAC37068E /* Pods_ChatFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35072EE3B4A934780DB613D7 /* Pods_ChatFlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B7F3FF71D1CF34765ACBF4 /* Pods-ChatFlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFlixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatFlixTests/Pods-ChatFlixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73CE05A953BF6E7B64DE1B63 /* Pods-ChatFlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFlixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatFlixUITests/Pods-ChatFlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9ADAE6A9EA15476DBC7422 /* Pods_ChatFlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30C16FC20AC281500BBB4FE /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		B30C16FF20AC321000BBB4FE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B30C170120AC32C400BBB4FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B30C170320AC347500BBB4FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B30C170520AC34E500BBB4FE /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		B30C170720AC446000BBB4FE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B30C170920AC68E600BBB4FE /* AccountNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNameTableViewCell.swift; sourceTree = "<group>"; };
+		B31FCF8320B3D38F0072D5FE /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		B335CBD220BFF39100E5863D /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		B3439D4920BFEF5B005052F7 /* GroupChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatViewController.swift; sourceTree = "<group>"; };
+		B3470EC720A5884600312B03 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		B3470EC920A58A9F00312B03 /* MovieCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollection.swift; sourceTree = "<group>"; };
+		B3470ECB20A58ED000312B03 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3470ECD20A5B1CE00312B03 /* MovieCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionReusableView.swift; sourceTree = "<group>"; };
+		B34F167920AD57E200A07F4B /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		B356748D20B2F585002A5019 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B361976320B192AC0062C5C4 /* TicketBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingViewController.swift; sourceTree = "<group>"; };
+		B361976520B1ADD80062C5C4 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		B361976720B1AE390062C5C4 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
+		B36EECF220A1867400FFC585 /* ChatFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36EECF520A1867400FFC585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B36EECFA20A1867400FFC585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36EECFD20A1867400FFC585 /* ChatFlix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatFlix.xcdatamodel; sourceTree = "<group>"; };
+		B36EECFF20A1867500FFC585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36EED0220A1867500FFC585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B36EED0420A1867500FFC585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36EED0920A1867500FFC585 /* ChatFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36EED0D20A1867500FFC585 /* ChatFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFlixTests.swift; sourceTree = "<group>"; };
+		B36EED0F20A1867500FFC585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36EED1420A1867500FFC585 /* ChatFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36EED1820A1867500FFC585 /* ChatFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFlixUITests.swift; sourceTree = "<group>"; };
+		B36EED1A20A1867500FFC585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36EED2720A186B700FFC585 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		B36EED2F20A187C400FFC585 /* MovieApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApi.swift; sourceTree = "<group>"; };
+		B36EED3120A18AFA00FFC585 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B383282420A5B8DA00752438 /* LocatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorTableViewCell.swift; sourceTree = "<group>"; };
+		B383282620A5B9C400752438 /* FindAreaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAreaTableViewController.swift; sourceTree = "<group>"; };
+		B383282820A5BA3E00752438 /* TheatresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatresViewController.swift; sourceTree = "<group>"; };
+		B383282A20A5C37E00752438 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3B47ED120AE70E7008D4857 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		B3C6EFA920C14E2E00652C16 /* AddGroupFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupFriendViewController.swift; sourceTree = "<group>"; };
+		B3C6EFAB20C14F2800652C16 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		B3C6EFAC20C14F2800652C16 /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		B3DC126020C2C6F300B54E7D /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		B3DC126120C2C6F300B54E7D /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		B3DC126420C2C98800B54E7D /* SelectGroupShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGroupShareViewController.swift; sourceTree = "<group>"; };
+		B3EFF0BA20C002E4003C83CD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B3F3192E20C3C175004CBDB1 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		B3F3193020C3D1E1004CBDB1 /* ThemeTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTitleLabel.swift; sourceTree = "<group>"; };
+		B3F3193220C3F191004CBDB1 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		B3F3193520C4088E004CBDB1 /* AcknowledgementsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsDetailsViewController.swift; sourceTree = "<group>"; };
+		B3F3193720C40CB6004CBDB1 /* AcknowledgementsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsTableViewController.swift; sourceTree = "<group>"; };
+		B3F3193920C40DAE004CBDB1 /* AcknowledgementsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsTableViewCell.swift; sourceTree = "<group>"; };
+		B3FB661420BEC1EF00CDFC7E /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		B3FB661620BEC56C00CDFC7E /* NewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
+		B3FF536120A5E27B004B9A9D /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		B3FFFE6020BA4F6A008906B1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B3FFFE6420BA53ED008906B1 /* ThemeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeNavigationController.swift; sourceTree = "<group>"; };
+		B3FFFE6820BA54F6008906B1 /* ThemeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollectionView.swift; sourceTree = "<group>"; };
+		B3FFFE6C20BA6B2D008906B1 /* ThemePrimaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePrimaryLabel.swift; sourceTree = "<group>"; };
+		B3FFFE6E20BA6B90008906B1 /* ThemeSecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSecondaryLabel.swift; sourceTree = "<group>"; };
+		B3FFFE7020BA7019008906B1 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		B3FFFE7220BA78C9008906B1 /* ThemeTableViewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTableViewCellView.swift; sourceTree = "<group>"; };
+		C44F3CBB4CF21B73FE4DDBA9 /* Pods-ChatFlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFlixUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatFlixUITests/Pods-ChatFlixUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36EECEF20A1867400FFC585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FD73819AAC15BA9D87023B /* Pods_ChatFlix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36EED0620A1867500FFC585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874B9BF5C3C2D11FCAAD1EBD /* Pods_ChatFlixTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36EED1120A1867500FFC585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB4A79FCEE3D2610AD1F92E /* Pods_ChatFlixUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A9B86AEDB908A5652FE825C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2522971ADA2223ABAC37068E /* Pods_ChatFlix.framework */,
+				8F9ADAE6A9EA15476DBC7422 /* Pods_ChatFlixTests.framework */,
+				35072EE3B4A934780DB613D7 /* Pods_ChatFlixUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87F676562D84F79DEAAD40D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				047EF06F7BE9672A391BF57F /* Pods-ChatFlix.debug.xcconfig */,
+				2221A1458DF74318FDBB5C19 /* Pods-ChatFlix.release.xcconfig */,
+				66B7F3FF71D1CF34765ACBF4 /* Pods-ChatFlixTests.debug.xcconfig */,
+				09C70D83DF93D11350AB3182 /* Pods-ChatFlixTests.release.xcconfig */,
+				73CE05A953BF6E7B64DE1B63 /* Pods-ChatFlixUITests.debug.xcconfig */,
+				C44F3CBB4CF21B73FE4DDBA9 /* Pods-ChatFlixUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B30C16FE20AC31EB00BBB4FE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B30C16FF20AC321000BBB4FE /* SignInViewController.swift */,
+				B30C170120AC32C400BBB4FE /* LoginViewController.swift */,
+				B30C170720AC446000BBB4FE /* RegisterViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B34F167B20AD580100A07F4B /* Locator */ = {
+			isa = PBXGroup;
+			children = (
+				B383282620A5B9C400752438 /* FindAreaTableViewController.swift */,
+				B383282820A5BA3E00752438 /* TheatresViewController.swift */,
+			);
+			path = Locator;
+			sourceTree = "<group>";
+		};
+		B34F167C20AD581300A07F4B /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				B3470EC720A5884600312B03 /* MoviesViewController.swift */,
+				B3FF536120A5E27B004B9A9D /* MovieDetailsViewController.swift */,
+				B361976320B192AC0062C5C4 /* TicketBookingViewController.swift */,
+				B3DC126420C2C98800B54E7D /* SelectGroupShareViewController.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		B34F167D20AD582900A07F4B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B30C170520AC34E500BBB4FE /* AccountViewController.swift */,
+				B34F167920AD57E200A07F4B /* FriendsTableViewController.swift */,
+				B3B47ED120AE70E7008D4857 /* AddFriendViewController.swift */,
+				B361976720B1AE390062C5C4 /* TicketsTableViewController.swift */,
+				B3F3193220C3F191004CBDB1 /* ChangePasswordViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		B34F167E20AD583800A07F4B /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B356748D20B2F585002A5019 /* ChatViewController.swift */,
+				B3FB661620BEC56C00CDFC7E /* NewGroupViewController.swift */,
+				B3439D4920BFEF5B005052F7 /* GroupChatViewController.swift */,
+				B3C6EFA920C14E2E00652C16 /* AddGroupFriendViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		B36EECE920A1867400FFC585 = {
+			isa = PBXGroup;
+			children = (
+				B335CBD220BFF39100E5863D /* Bridging-Header.h */,
+				B36EECF420A1867400FFC585 /* ChatFlix */,
+				B36EED0C20A1867500FFC585 /* ChatFlixTests */,
+				B36EED1720A1867500FFC585 /* ChatFlixUITests */,
+				B36EECF320A1867400FFC585 /* Products */,
+				87F676562D84F79DEAAD40D8 /* Pods */,
+				6A9B86AEDB908A5652FE825C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B36EECF320A1867400FFC585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36EECF220A1867400FFC585 /* ChatFlix.app */,
+				B36EED0920A1867500FFC585 /* ChatFlixTests.xctest */,
+				B36EED1420A1867500FFC585 /* ChatFlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36EECF420A1867400FFC585 /* ChatFlix */ = {
+			isa = PBXGroup;
+			children = (
+				B36EED2E20A187AE00FFC585 /* Network */,
+				B36EED2D20A1870800FFC585 /* Resources */,
+				B36EED2C20A186FC00FFC585 /* Controller */,
+				B36EED2B20A186F700FFC585 /* View */,
+				B36EED2A20A186EA00FFC585 /* Interface */,
+				B36EED2920A186CC00FFC585 /* Supporting */,
+				B36EED2620A186A600FFC585 /* Model */,
+			);
+			path = ChatFlix;
+			sourceTree = "<group>";
+		};
+		B36EED0C20A1867500FFC585 /* ChatFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36EED0D20A1867500FFC585 /* ChatFlixTests.swift */,
+				B36EED0F20A1867500FFC585 /* Info.plist */,
+			);
+			path = ChatFlixTests;
+			sourceTree = "<group>";
+		};
+		B36EED1720A1867500FFC585 /* ChatFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B36EED1820A1867500FFC585 /* ChatFlixUITests.swift */,
+				B36EED1A20A1867500FFC585 /* Info.plist */,
+			);
+			path = ChatFlixUITests;
+			sourceTree = "<group>";
+		};
+		B36EED2620A186A600FFC585 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B36EED2720A186B700FFC585 /* Movie.swift */,
+				B36EECFC20A1867400FFC585 /* ChatFlix.xcdatamodeld */,
+				B3470EC920A58A9F00312B03 /* MovieCollection.swift */,
+				B383282A20A5C37E00752438 /* Constants.swift */,
+				B31FCF8320B3D38F0072D5FE /* Friend.swift */,
+				B3FB661420BEC1EF00CDFC7E /* Group.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B36EED2920A186CC00FFC585 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B30C170320AC347500BBB4FE /* GoogleService-Info.plist */,
+				B36EED0420A1867500FFC585 /* Info.plist */,
+				B36EECF520A1867400FFC585 /* AppDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		B36EED2A20A186EA00FFC585 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B36EECF920A1867400FFC585 /* Main.storyboard */,
+				B36EED0120A1867500FFC585 /* LaunchScreen.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		B36EED2B20A186F700FFC585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3FFFE5F20BA4BDB008906B1 /* Theme */,
+				B3470ECB20A58ED000312B03 /* MovieCollectionViewCell.swift */,
+				B3470ECD20A5B1CE00312B03 /* MovieCollectionReusableView.swift */,
+				B383282420A5B8DA00752438 /* LocatorTableViewCell.swift */,
+				B30C16FC20AC281500BBB4FE /* RoundedButton.swift */,
+				B30C170920AC68E600BBB4FE /* AccountNameTableViewCell.swift */,
+				B361976520B1ADD80062C5C4 /* TicketTableViewCell.swift */,
+				B3FFFE7020BA7019008906B1 /* RatingView.swift */,
+				B3C6EFAB20C14F2800652C16 /* FriendTableViewCell.swift */,
+				B3C6EFAC20C14F2800652C16 /* FriendTableViewCell.xib */,
+				B3DC126020C2C6F300B54E7D /* GroupTableViewCell.swift */,
+				B3DC126120C2C6F300B54E7D /* GroupTableViewCell.xib */,
+				B3F3193920C40DAE004CBDB1 /* AcknowledgementsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B36EED2C20A186FC00FFC585 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B30C16FE20AC31EB00BBB4FE /* Authentication */,
+				B34F167C20AD581300A07F4B /* Movies */,
+				B34F167B20AD580100A07F4B /* Locator */,
+				B34F167E20AD583800A07F4B /* Chat */,
+				B34F167D20AD582900A07F4B /* Account */,
+				B3F3193420C40844004CBDB1 /* About */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B36EED2D20A1870800FFC585 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B36EECFF20A1867500FFC585 /* Assets.xcassets */,
+				B3EFF0BA20C002E4003C83CD /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B36EED2E20A187AE00FFC585 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B36EED2F20A187C400FFC585 /* MovieApi.swift */,
+				B36EED3120A18AFA00FFC585 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B3F3193420C40844004CBDB1 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3193520C4088E004CBDB1 /* AcknowledgementsDetailsViewController.swift */,
+				B3F3193720C40CB6004CBDB1 /* AcknowledgementsTableViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		B3FFFE5F20BA4BDB008906B1 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B3FFFE6020BA4F6A008906B1 /* Colors.swift */,
+				B3FFFE6420BA53ED008906B1 /* ThemeNavigationController.swift */,
+				B3FFFE6820BA54F6008906B1 /* ThemeCollectionView.swift */,
+				B3FFFE6C20BA6B2D008906B1 /* ThemePrimaryLabel.swift */,
+				B3FFFE6E20BA6B90008906B1 /* ThemeSecondaryLabel.swift */,
+				B3FFFE7220BA78C9008906B1 /* ThemeTableViewCellView.swift */,
+				B3F3192E20C3C175004CBDB1 /* ThemeView.swift */,
+				B3F3193020C3D1E1004CBDB1 /* ThemeTitleLabel.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36EECF120A1867400FFC585 /* ChatFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36EED1D20A1867500FFC585 /* Build configuration list for PBXNativeTarget "ChatFlix" */;
+			buildPhases = (
+				E54A6A8AA060DCE17D3283DD /* [CP] Check Pods Manifest.lock */,
+				B36EECEE20A1867400FFC585 /* Sources */,
+				B36EECEF20A1867400FFC585 /* Frameworks */,
+				B36EECF020A1867400FFC585 /* Resources */,
+				F381DC020557C5E4CE0C0499 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatFlix;
+			productName = ChatFlix;
+			productReference = B36EECF220A1867400FFC585 /* ChatFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36EED0820A1867500FFC585 /* ChatFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36EED2020A1867500FFC585 /* Build configuration list for PBXNativeTarget "ChatFlixTests" */;
+			buildPhases = (
+				23A3CA95F6664D1D004AC26C /* [CP] Check Pods Manifest.lock */,
+				B36EED0520A1867500FFC585 /* Sources */,
+				B36EED0620A1867500FFC585 /* Frameworks */,
+				B36EED0720A1867500FFC585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36EED0B20A1867500FFC585 /* PBXTargetDependency */,
+			);
+			name = ChatFlixTests;
+			productName = ChatFlixTests;
+			productReference = B36EED0920A1867500FFC585 /* ChatFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B36EED1320A1867500FFC585 /* ChatFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36EED2320A1867500FFC585 /* Build configuration list for PBXNativeTarget "ChatFlixUITests" */;
+			buildPhases = (
+				C6DE1214A44A7E58D517CA6B /* [CP] Check Pods Manifest.lock */,
+				B36EED1020A1867500FFC585 /* Sources */,
+				B36EED1120A1867500FFC585 /* Frameworks */,
+				B36EED1220A1867500FFC585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36EED1620A1867500FFC585 /* PBXTargetDependency */,
+			);
+			name = ChatFlixUITests;
+			productName = ChatFlixUITests;
+			productReference = B36EED1420A1867500FFC585 /* ChatFlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36EECEA20A1867400FFC585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Zeeshan Khan";
+				TargetAttributes = {
+					B36EECF120A1867400FFC585 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B36EED0820A1867500FFC585 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B36EECF120A1867400FFC585;
+					};
+					B36EED1320A1867500FFC585 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B36EECF120A1867400FFC585;
+					};
+				};
+			};
+			buildConfigurationList = B36EECED20A1867400FFC585 /* Build configuration list for PBXProject "ChatFlix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36EECE920A1867400FFC585;
+			productRefGroup = B36EECF320A1867400FFC585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36EECF120A1867400FFC585 /* ChatFlix */,
+				B36EED0820A1867500FFC585 /* ChatFlixTests */,
+				B36EED1320A1867500FFC585 /* ChatFlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36EECF020A1867400FFC585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36EED0320A1867500FFC585 /* LaunchScreen.storyboard in Resources */,
+				B3C6EFAE20C14F2800652C16 /* FriendTableViewCell.xib in Resources */,
+				B30C170420AC347500BBB4FE /* GoogleService-Info.plist in Resources */,
+				B3EFF0BB20C002E4003C83CD /* Settings.bundle in Resources */,
+				B36EED0020A1867500FFC585 /* Assets.xcassets in Resources */,
+				B3DC126320C2C6F300B54E7D /* GroupTableViewCell.xib in Resources */,
+				B36EECFB20A1867400FFC585 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36EED0720A1867500FFC585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36EED1220A1867500FFC585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A3CA95F6664D1D004AC26C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatFlixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6DE1214A44A7E58D517CA6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatFlixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54A6A8AA060DCE17D3283DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatFlix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F381DC020557C5E4CE0C0499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChatFlix/Pods-ChatFlix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatFlix/Pods-ChatFlix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36EECEE20A1867400FFC585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B383282720A5B9C400752438 /* FindAreaTableViewController.swift in Sources */,
+				B3FFFE6120BA4F6A008906B1 /* Colors.swift in Sources */,
+				B30C16FD20AC281500BBB4FE /* RoundedButton.swift in Sources */,
+				B3F3193120C3D1E1004CBDB1 /* ThemeTitleLabel.swift in Sources */,
+				B361976620B1ADD80062C5C4 /* TicketTableViewCell.swift in Sources */,
+				B30C170A20AC68E600BBB4FE /* AccountNameTableViewCell.swift in Sources */,
+				B36EECF620A1867400FFC585 /* AppDelegate.swift in Sources */,
+				B36EED3020A187C400FFC585 /* MovieApi.swift in Sources */,
+				B30C170820AC446000BBB4FE /* RegisterViewController.swift in Sources */,
+				B3DC126220C2C6F300B54E7D /* GroupTableViewCell.swift in Sources */,
+				B361976820B1AE390062C5C4 /* TicketsTableViewController.swift in Sources */,
+				B3FFFE6F20BA6B90008906B1 /* ThemeSecondaryLabel.swift in Sources */,
+				B36EED2820A186B700FFC585 /* Movie.swift in Sources */,
+				B361976420B192AC0062C5C4 /* TicketBookingViewController.swift in Sources */,
+				B3F3193A20C40DAE004CBDB1 /* AcknowledgementsTableViewCell.swift in Sources */,
+				B3B47ED220AE70E7008D4857 /* AddFriendViewController.swift in Sources */,
+				B3FFFE7120BA7019008906B1 /* RatingView.swift in Sources */,
+				B3470ECE20A5B1CE00312B03 /* MovieCollectionReusableView.swift in Sources */,
+				B3F3192F20C3C175004CBDB1 /* ThemeView.swift in Sources */,
+				B3F3193820C40CB6004CBDB1 /* AcknowledgementsTableViewController.swift in Sources */,
+				B36EED3220A18AFA00FFC585 /* API.swift in Sources */,
+				B36EECFE20A1867400FFC585 /* ChatFlix.xcdatamodeld in Sources */,
+				B30C170620AC34E500BBB4FE /* AccountViewController.swift in Sources */,
+				B3F3193620C4088E004CBDB1 /* AcknowledgementsDetailsViewController.swift in Sources */,
+				B3439D4A20BFEF5B005052F7 /* GroupChatViewController.swift in Sources */,
+				B3FFFE7320BA78C9008906B1 /* ThemeTableViewCellView.swift in Sources */,
+				B3C6EFAA20C14E2E00652C16 /* AddGroupFriendViewController.swift in Sources */,
+				B383282B20A5C37E00752438 /* Constants.swift in Sources */,
+				B3FFFE6920BA54F6008906B1 /* ThemeCollectionView.swift in Sources */,
+				B383282520A5B8DA00752438 /* LocatorTableViewCell.swift in Sources */,
+				B3FB661520BEC1EF00CDFC7E /* Group.swift in Sources */,
+				B34F167A20AD57E200A07F4B /* FriendsTableViewController.swift in Sources */,
+				B3470EC820A5884600312B03 /* MoviesViewController.swift in Sources */,
+				B3FB661720BEC56C00CDFC7E /* NewGroupViewController.swift in Sources */,
+				B3FF536220A5E27B004B9A9D /* MovieDetailsViewController.swift in Sources */,
+				B30C170020AC321000BBB4FE /* SignInViewController.swift in Sources */,
+				B3F3193320C3F191004CBDB1 /* ChangePasswordViewController.swift in Sources */,
+				B3C6EFAD20C14F2800652C16 /* FriendTableViewCell.swift in Sources */,
+				B3FFFE6520BA53ED008906B1 /* ThemeNavigationController.swift in Sources */,
+				B30C170220AC32C400BBB4FE /* LoginViewController.swift in Sources */,
+				B3470ECA20A58A9F00312B03 /* MovieCollection.swift in Sources */,
+				B383282920A5BA3E00752438 /* TheatresViewController.swift in Sources */,
+				B31FCF8420B3D38F0072D5FE /* Friend.swift in Sources */,
+				B356748E20B2F585002A5019 /* ChatViewController.swift in Sources */,
+				B3FFFE6D20BA6B2D008906B1 /* ThemePrimaryLabel.swift in Sources */,
+				B3DC126520C2C98800B54E7D /* SelectGroupShareViewController.swift in Sources */,
+				B3470ECC20A58ED000312B03 /* MovieCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36EED0520A1867500FFC585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36EED0E20A1867500FFC585 /* ChatFlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36EED1020A1867500FFC585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36EED1920A1867500FFC585 /* ChatFlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36EED0B20A1867500FFC585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36EECF120A1867400FFC585 /* ChatFlix */;
+			targetProxy = B36EED0A20A1867500FFC585 /* PBXContainerItemProxy */;
+		};
+		B36EED1620A1867500FFC585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36EECF120A1867400FFC585 /* ChatFlix */;
+			targetProxy = B36EED1520A1867500FFC585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36EECF920A1867400FFC585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36EECFA20A1867400FFC585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36EED0120A1867500FFC585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36EED0220A1867500FFC585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36EED1B20A1867500FFC585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B36EED1C20A1867500FFC585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36EED1E20A1867500FFC585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047EF06F7BE9672A391BF57F /* Pods-ChatFlix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVR3Q93G2Z;
+				INFOPLIST_FILE = ChatFlix/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.monash.ChatFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B36EED1F20A1867500FFC585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2221A1458DF74318FDBB5C19 /* Pods-ChatFlix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVR3Q93G2Z;
+				INFOPLIST_FILE = ChatFlix/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.monash.ChatFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B36EED2120A1867500FFC585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B7F3FF71D1CF34765ACBF4 /* Pods-ChatFlixTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatFlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.monash.ChatFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatFlix.app/ChatFlix";
+			};
+			name = Debug;
+		};
+		B36EED2220A1867500FFC585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C70D83DF93D11350AB3182 /* Pods-ChatFlixTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatFlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.monash.ChatFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatFlix.app/ChatFlix";
+			};
+			name = Release;
+		};
+		B36EED2420A1867500FFC585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CE05A953BF6E7B64DE1B63 /* Pods-ChatFlixUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatFlixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.monash.ChatFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatFlix;
+			};
+			name = Debug;
+		};
+		B36EED2520A1867500FFC585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44F3CBB4CF21B73FE4DDBA9 /* Pods-ChatFlixUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatFlixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.monash.ChatFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatFlix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36EECED20A1867400FFC585 /* Build configuration list for PBXProject "ChatFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36EED1B20A1867500FFC585 /* Debug */,
+				B36EED1C20A1867500FFC585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36EED1D20A1867500FFC585 /* Build configuration list for PBXNativeTarget "ChatFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36EED1E20A1867500FFC585 /* Debug */,
+				B36EED1F20A1867500FFC585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36EED2020A1867500FFC585 /* Build configuration list for PBXNativeTarget "ChatFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36EED2120A1867500FFC585 /* Debug */,
+				B36EED2220A1867500FFC585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36EED2320A1867500FFC585 /* Build configuration list for PBXNativeTarget "ChatFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36EED2420A1867500FFC585 /* Debug */,
+				B36EED2520A1867500FFC585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B36EECFC20A1867400FFC585 /* ChatFlix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B36EECFD20A1867400FFC585 /* ChatFlix.xcdatamodel */,
+			);
+			currentVersion = B36EECFD20A1867400FFC585 /* ChatFlix.xcdatamodel */;
+			path = ChatFlix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B36EECEA20A1867400FFC585 /* Project object */;
+}
